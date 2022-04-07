@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;600;700;900&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: mukta, sans-serif;
+    font-size: 0.9rem;
+}
+
+
+/**** Table Design ****/
+
+table {
+    margin: 200px auto;
+    text-align: left;
+    background-color: white;
+    box-shadow: 8px 8px 15px 0px #8080804d;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+thead {
+    box-shadow: 0 5px 10px #80808061;
+}
+
+th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.common_color {
+    background-color: #89bff917;
+}
+
+td {
+    padding: 1rem 2rem;
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(18, 174, 247);
+    text-transform: uppercase;
+}
+
+.unpaid {
+    background-color: rgba(250, 44, 154, 0.35);
+    color: brown;
+    border-radius: 3px;
+    padding: 0.2rem 1rem;
+    text-align: center;
+}
+
+.paid {
+    background-color: rgba(10, 243, 146, 0.35);
+    color: rgb(15, 124, 82);
+    border-radius: 3px;
+    padding: 0.2rem 1rem;
+    text-align: center;
+}
+
+.pending {
+    background-color: rgba(255, 251, 20, 0.35);
+    color: rgb(165, 132, 42);
+    border-radius: 3px;
+    padding: 0.2rem 1rem;
+    text-align: center;
+}
+
+
+
+/******* Form Design *********/
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.inner_wrap {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 60px;
+}
+
+.img {
+    width: 40%;
+    float: left;
+}
+
+.img img {
+    width: 100%;
+}
+
+.content {
+    width: 60%;
+    float: left;
+
+}
+
+.inner_content {
+    margin: 0 auto;
+    width: 70%;
+    border: 1.5px solid #607d8b38;
+    padding: 50px 50px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #EE7F37;
+    border-bottom: 3px solid #3383FF;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.input_box {
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #607d8b;
+    padding-left: 20px;
+}
+
+.input_box input {
+    width: 100%;
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid #5f829357;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.remember label input {
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.input_box input[type="submit"] {
+    border: 1px solid transparent;
+    background-color: #3383FF;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    /* transition: 0.3s all ease; */
+}
+
+/* .input_box input[type="submit"]:hover {
+    border: 1px solid #3383FF;
+    background-color: white;
+    color: #3383FF;
+} */
+
+.bottom {
+    text-align: center;
+}
+
+p .forget {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: rgb(18, 174, 247);
+    text-transform: uppercase;
+    margin-bottom: 10pox;
+}
+
+button {
+    padding: 10px 35px;
+    border-radius: 20px;
+    border: 1.5px solid #3383FF;
+    background-color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button a {
+    color: #3383FF;
+}
